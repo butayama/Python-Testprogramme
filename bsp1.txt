@@ -1,0 +1,14 @@
+"""Example Doctest source: Hubertz, J. Softwaretests mit Python 2.2 S.32
+
+In sourcecode included tests for functions which explain the use of the code.
+"""
+
+# define object as dictionary and assign a value to object
+   >>> a = {}
+   >>> a['color'] = 'blue'
+
+# show object
+   >>> a
+   {'color': 'blue'}
+
+# shell command: E:\GitHub\Python-Testprogramme>python -m doctest -v bsp1.txt
